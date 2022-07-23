@@ -1,0 +1,31 @@
+.comment-container {
+  display: flex;
+  margin: 1rem;
+  width: 100%;
+
+  mat-card {
+    width: 100%;
+
+    .comment-content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      .mat-form-field{
+        width: 100%;
+      }
+      button {
+        width: 3rem;
+      }
+
+
+    }
+
+  }
+  .user-profile {
+    img {
+      width: 35px;
+      border-radius: 50%;
+      margin: 10px;
+  }
+}
+}
